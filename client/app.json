@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "TransplantApp",
+    "slug": "TransplantApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/TransplantApp.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/TransplantApp.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/TransplantApp.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/TransplantApp.png"
+    }
+  }
+}
