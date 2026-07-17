@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+data/
+
+# Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Coverage
+coverage/
+
+# Build
+build/
+web-build/
+server/node_modules/
+client/node_modules/
+client/.expo/
+# macOS
+.DS_Store
