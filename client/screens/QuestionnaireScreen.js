@@ -236,6 +236,7 @@ const QuestionnaireScreen = ({ navigation, myInfo, setMyInfo, updateMyInfo }) =>
   const searchRef1 = useRef();
   const [infoTmp, setInfoTmp] = useState(myInfo);
   const [dirty, setDirty] = useState(true);
+  const [errors, setErrors] = useState({});
 
   useEffect(() => {
     setDate1( new Date( myInfo.date_surgery.split("/")[2], myInfo.date_surgery.split("/")[1]-1, myInfo.date_surgery.split("/")[0] ))
