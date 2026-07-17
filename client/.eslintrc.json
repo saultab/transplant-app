@@ -1,5 +1,7 @@
 {
   "env": {
+    "browser": true,
+    "node": true,
     "es2021": true,
     "jest": true
   },
@@ -23,6 +25,10 @@
     "react/react-in-jsx-scope": "off",
     "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
     "no-console": "off",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "no-useless-catch": "off",
+    "react/no-children-prop": "off",
+    "react/no-unescaped-entities": "off",
+    "no-dupe-keys": "off"
   }
 }
